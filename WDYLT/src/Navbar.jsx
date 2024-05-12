@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Navbar extends Component {
   render() {
     return (
-      <nav>
+      <nav className='navbar'>
         <div>
           <div>
             <ul>
@@ -17,9 +17,9 @@ export default class Navbar extends Component {
             </form>
             <div className='socials'>
               <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="">Ig</a></li>
+                <li><a href="">Ghub</a></li>
+                <li><a href="">Lnkd</a></li>
               </ul>
             </div>
           </div>
