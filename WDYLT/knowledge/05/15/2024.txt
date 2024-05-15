@@ -1,0 +1,45 @@
+Categoria: Procesos de desarrollo de software
+
+Título: Modelo de procesos para el desarrollo de software.
+
+Un proceso de software es una serie de actividades relacionadas que conduce a la elaboración de un producto de software.
+
+Existen muchos diferentes procesos de software, pero todos deben incluir cuatro actividades que son fundamentales para la ingeniería de software:
+* Especificación del software: Tienen que definirse tanto la funcionalidad del software como las restricciones de su operación.
+* Diseño e implementación del software: Debe desarrollarse el software para cumplir con las especificaciones.
+* Validación del software: Hay que validar el software para asegurarse de que cumple lo que el cliente quiere.
+* Evolución del software: El software tiene que evolucionar para satisfacer las necesidades cambiantes del cliente.
+
+Cuando los procesos se discuten y se describen, por lo general se habla de actividades como especificar un modelo de datos, diseñar una interfaz de usuario, etcétera, así como del orden de dichas actividades, pero al igual que las actividades, también las descripciones de los procesos deben incluir:
+- Productos: Que son los resultados de una actividad del proceso, como, por ejemplo, el resultado de la actividad del diseño arquitectónico, es un modelo de la arquitectura de software.
+- Roles: Que reflejan las responsabilidades de la gente que interviene en el proceso, por ejemplos de roles: gerente de proyecto, gerente de configuración, programador, etcétera.
+- Precondiciones y postcondiciones: Que son declaraciones válidas antes y después de que se realice una actividad del proceso o se cree un producto, por ejemplo, antes de comenzar el diseño arquitectónico, una precondición es que el cliente haya aprobado todos los requerimientos; después de terminar esta actividad, una poscondición podría ser que se revisen aquellos modelos UML que describen la arquitectura.
+
+No hay un proceso ideal; además, la mayoría de las organizaciones han diseñado sus propios procesos de desarrollo de software.
+Para los sistemas empresariales, con requerimientos rápidamente cambiantes, es probable que sea más efectivo un proceso menos formal y flexible. En ocasiones, los procesos de software se clasifican como dirigidos por un plan (plandriven) o como procesos ágiles.
+
+- Procesos dirigidos por un plan: Son aquellos donde todas las actividades del proceso se planean por anticipado y el avance se mide contra dicho plan.
+- Procesos ágiles: La planeación es incremental y es más fácil modificar el proceso para reflejar los requerimientos cambiantes del cliente.
+
+El enoque que me gustaria plantear aquí hoy es el: Proceso Unificado Rational
+El Proceso Unificado Racional (RUP, por las siglas de Rational Unified Process) es un ejemplo de un modelo de proceso moderno que se derivó del trabajo sobre el UML y el proceso asociado de desarrollo de software unificado. Aquí se incluye una descripción, pues es un buen ejemplo de un modelo de proceso híbrido. Conjunta elementos de todos los modelos de proceso genéricos, ilustra la buena práctica en especificación y diseño y apoya la creación de prototipos y entrega incremental.
+
+El RUP reconoce que los modelos de proceso convencionales presentan una sola visión del proceso, en contraste, el RUP por lo general se describe desde tres perspectivas:
+
+1. Una perspectiva dinámica que muestra las fases del modelo a través del tiempo.
+
+2. Una perspectiva estática que presenta las actividades del proceso que se establecen.
+
+3. Una perspectiva práctica que sugiere buenas prácticas a usar durante el proceso.
+
+
+La mayoría de las descripciones del RUP buscan combinar las perspectivas estática y dinámica en un solo diagrama (Krutchen, 2003). Esto hace que el proceso resulte más difícil de entender, por lo que en este texto se usan descripciones separadas de cada una de estas perspectivas.
+El RUP es un modelo en fases que identifica cuatro fases discretas en el proceso de software, sin embargo, a diferencia del modelo en cascada, donde las fases se igualan con actividades del proceso, las fases en el RUP están más estrechamente vinculadas con la empresa que con las preocupaciones técnicas.
+Las fases del RUP son:
+* Concepción: la meta es establecer un caso empresarial de sistema. Deben identificarse todas las entidades externar (personas y sistemas) que interactúan con el sistema y definirán dichas interacciones. Luego se usa esta información para la aportación del sistema hacia empresa. Si esta aportación es menor, entonces el proyecto puede cancelarse después de esta fase.
+
+* Elaboración: las metas consisten en desarrollar la comprensión del problema de dominio, establecer un marco conceptual arquitectónico para el sistema, diseñar el plan del proyecto e identificar los riesgos clave del proyecto; al completar esta fase, debe tenerse un modelo de requerimientos para el sistema, que podría ser una seria de casos de uso del UML, una descripción arquitectónica y un plan de desarrollo para el software.
+
+* Construcción: incluye diseño, programación y pruebas del sistema. Partes del sistema se desarrollan en paralelo y se integran durante esta fase; al completar esta, debe tenerse un sistema de software funcionando y la documentación relacionada y lista para entregarse al usuario.
+
+* Transacción: se interesa por el cambio del sistema desde la comunidad de desarrollo hacia la comunidad de usuarios, por ponerlo a funcionar en un ambiente real. Esto es algo ignorado en la mayoría de los modelos de proceso de software, aunque, en efecto, es una actividad costosa y en ocasiones, problemática. En el complemento de esta fase se debe tener un sistema de software documentado que funcione correctamente en su entorno operacional.
