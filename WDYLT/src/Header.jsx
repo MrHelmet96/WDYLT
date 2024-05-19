@@ -5,7 +5,7 @@ export default class Header extends Component {
     return (
       <header>
         <h3>aprendiendo, un día a la vez.</h3>
-        <h1>¿Qué aprendsite hoy?</h1>
+        <h1>¿Qué aprendiste hoy?</h1>
       </header>
     )
   }

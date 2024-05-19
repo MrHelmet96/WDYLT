@@ -13,6 +13,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  width: 95vw;
+  background-color: #f8f9fa;
+  color: #010101;
+  text-align: center;
+  padding: 20px;
+}
+
+header h3 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 72px;
+  font-weight: bold;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
